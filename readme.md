@@ -6,10 +6,9 @@ The goal is to predict the number of remaining operational cycles until engine f
 
 ## Key Features
 - **Dataset**: The PHM08 dataset is used, containing time series with numerous sensor measurements.
-- The test data lacks a target column.
   
 - **Model**: A combination of a Convolutional Neural Network (CNN) and Bidirectional LSTM (Bi-LSTM) layers. 
-- This architecture allows for effective extraction of both local and long-term dependencies in the data.
+This architecture allows for effective extraction of both local and long-term dependencies in the data.
 
 ### Data Preprocessing:
 - **Feature standardization** using `StandardScaler`.
